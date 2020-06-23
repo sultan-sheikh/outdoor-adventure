@@ -58,10 +58,12 @@ header{background: url(./images/mountain.jpg);background-color: #00000094;backgr
     color: white;
     text-decoration: none;
     font-size: 18px;
-    transition: .3s ease;
+    transition: .6s ease;
+    border-bottom: 2px solid transparent;
 }
 .nav ul li a:hover{
-	color:#E92050;
+	color: #ffffff;
+	border-bottom: 2px solid white;
 }
 
 .nav ul li:last-child a{
