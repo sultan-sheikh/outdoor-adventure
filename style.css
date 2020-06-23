@@ -212,7 +212,7 @@ header{background: url(./images/mountain.jpg);background-color: #00000094;backgr
 	background-size: cover;
 	background-color: #00000080;
 	background-blend-mode: color-burn;
-	padding: 200px 0;
+	padding: 150px 0;
 	overflow: hidden;
 }
 .explore{width: 50%;float: right;overflow: hidden;}
