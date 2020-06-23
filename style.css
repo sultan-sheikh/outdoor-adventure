@@ -331,15 +331,10 @@ header{background: url(./images/mountain.jpg);background-color: #00000094;backgr
 
 /*copyright section start*/
 .copyright{
-
 background: #191919;
-
-color: #ffffffbd;
-
+color: #ffffff;
 text-align: center;
-
 font-size: 18px;
-
 padding: 45px 0;
 }
 
