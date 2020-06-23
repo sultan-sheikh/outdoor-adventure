@@ -168,11 +168,12 @@ header{background: url(./images/mountain.jpg);background-color: #00000094;backgr
 	font-weight: 500;
 	font-size: 18px;
 	padding: 10px;
+	margin: 15px 0;
 }
 
 .events a{
 	color: #fb2056;
-	font-size: 13px;
+	font-size: 14px;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: 900;
