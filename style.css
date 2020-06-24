@@ -24,7 +24,7 @@ body{
 }
 
 /*header section start*/
-header{background: url(./images/mountain.jpg);background-color: #00000094;background-blend-mode: color-burn;background-repeat: no-repeat;background-position: center;background-size: cover;min-height: 700px;}
+header{background: url(./images/mountain.jpg);background-color: #000000b8;background-blend-mode: color-burn;background-repeat: no-repeat;background-position: center;background-size: cover;min-height: 700px;}
 
 .wrapper{
 	width: 1100px;
@@ -295,7 +295,7 @@ header{background: url(./images/mountain.jpg);background-color: #00000094;backgr
 .tours img{
 	width:100%;
 	display: block;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	border-radius: 5px;
 }
 
@@ -370,7 +370,7 @@ header{background: url(./images/mountain.jpg);background-color: #00000094;backgr
 
 .same{
     width: 33.33%;
-    padding: 20px;
+    padding: 10px;
 }
 
 /*tours section end*/
