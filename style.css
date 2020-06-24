@@ -1,9 +1,17 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
 *{
 	margin:0;
 	padding:0;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 }
 
 body{
@@ -24,9 +32,14 @@ header{background: url(./images/mountain.jpg);background-color: #00000094;backgr
 }
 
 .header_section{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding-top: 20px;
 }
 .logo{width: 20%;}
@@ -42,14 +55,20 @@ header{background: url(./images/mountain.jpg);background-color: #00000094;backgr
     font-weight: 400;
     letter-spacing: 3px;
 }
-.nav{justify-content: flex-end;width: 80%;}
+.nav{-webkit-box-pack: end;-ms-flex-pack: end;justify-content: flex-end;width: 80%;}
 .nav ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
 }
 .nav ul li{
     list-style: none;
-    justify-content: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
     margin: 0 15px;
 }
 
@@ -58,6 +77,8 @@ header{background: url(./images/mountain.jpg);background-color: #00000094;backgr
     color: white;
     text-decoration: none;
     font-size: 18px;
+    -webkit-transition: .6s ease;
+    -o-transition: .6s ease;
     transition: .6s ease;
     border-bottom: 2px solid transparent;
 }
@@ -72,6 +93,8 @@ header{background: url(./images/mountain.jpg);background-color: #00000094;backgr
     border-radius:30px;
     color:white;
     font-weight:bold;
+    -webkit-transition: .3s ease;
+    -o-transition: .3s ease;
     transition: .3s ease;
 }
 
@@ -146,7 +169,8 @@ header{background: url(./images/mountain.jpg);background-color: #00000094;backgr
 }
 .events img{
     width: 100%;
-    box-shadow: 14px 14px 8px #0000001f;
+    -webkit-box-shadow: 14px 14px 8px #0000001f;
+            box-shadow: 14px 14px 8px #0000001f;
     border-radius: 5px;
 }
 .events h2{
@@ -190,7 +214,8 @@ header{background: url(./images/mountain.jpg);background-color: #00000094;backgr
     width: 50%;
     float: left;
     padding: 40px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     padding-top: 0;
 }
 .left img{}
@@ -199,7 +224,8 @@ header{background: url(./images/mountain.jpg);background-color: #00000094;backgr
     float: right;
     padding: 40px;
     padding-top: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 .right img{}
 
@@ -255,9 +281,15 @@ header{background: url(./images/mountain.jpg);background-color: #00000094;backgr
 }
 
 .tours {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
-	flex-flow: row;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-flow: row;
+	        flex-flow: row;
 }
 
 .tours img{
@@ -302,10 +334,15 @@ header{background: url(./images/mountain.jpg);background-color: #00000094;backgr
 	letter-spacing: 2px;
 	display: inline-block;
 	margin-top: 10px;
+	-webkit-transition:.4s all ease-in-out;
+	-o-transition:.4s all ease-in-out;
+	transition:.4s all ease-in-out;
 }
 
 .one a:hover{
-	background: #fb2056cc;
+	-webkit-box-shadow: 0px 8px 16px rgba(0,0,0,0.4);
+	        box-shadow: 0px 8px 16px rgba(0,0,0,0.4);
+	
 }
 
 .two img:last-child{
@@ -318,13 +355,17 @@ header{background: url(./images/mountain.jpg);background-color: #00000094;backgr
 
 .small{
 	height: 250px;
-	object-fit: cover;
-	object-position: center;
+	-o-object-fit: cover;
+	   object-fit: cover;
+	-o-object-position: center;
+	   object-position: center;
 }
 .large{
     height: 400px;
-    object-fit: cover;
-    object-position: center;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
 }
 
 .same{
@@ -347,4 +388,3 @@ padding: 45px 0;
 	
 }
 /*copyright section end*/
-
