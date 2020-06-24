@@ -8,27 +8,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
 *{
-	margin:0;
-	padding:0;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+    margin:0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 body{
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .flex{
-	/* display:flex; */
-	/* flex-wrap: wrap; */
+    /* display:flex; */
+    /* flex-wrap: wrap; */
 }
 
 /*header section start*/
-header{background: url(./images/mountain.jpg);background-color: #000000b8;background-blend-mode: color-burn;background-repeat: no-repeat;background-position: center;background-size: cover;min-height: 700px;}
+header{background: url(./images/mountain.jpg);background-color: #000000c7;background-blend-mode: color-burn;background-repeat: no-repeat;background-position: center;background-size: cover;min-height: 700px;}
 
 .wrapper{
-	width: 1100px;
-	margin:auto;
+    width: 1100px;
+    margin:auto;
 }
 
 .header_section{
@@ -67,28 +67,31 @@ header{background: url(./images/mountain.jpg);background-color: #000000b8;backgr
 .nav ul li{
     list-style: none;
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    margin: 0 15px;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin: 0 5px;
 }
 
 
 .nav ul li a{
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
+    padding: 5px 12px;
+    border-radius: 30px;
+    border: 2px solid #ffffff00;
     -webkit-transition: .6s ease;
     -o-transition: .6s ease;
     transition: .6s ease;
-    border-bottom: 2px solid transparent;
+    /* border-bottom: 2px solid transparent; */
 }
 .nav ul li a:hover{
-	color: #ffffff;
-	border-bottom: 2px solid white;
+    border-radius: 30px;
+    border: 2px solid white;
 }
 
 .nav ul li:last-child a{
-	padding:10px 20px;
+    padding: 5px 10px;
     border: 2px solid #fff;
     border-radius:30px;
     color:white;
@@ -99,8 +102,8 @@ header{background: url(./images/mountain.jpg);background-color: #000000b8;backgr
 }
 
 .nav ul li:last-child a:hover{
-    background:white;
-    color:#E92050;
+    background: #ffffff;
+    color: #fb2056;
 }
 
 .header_content{margin: 0 auto;text-align: center;padding: 200px 0;}
@@ -132,24 +135,24 @@ header{background: url(./images/mountain.jpg);background-color: #000000b8;backgr
 }
 
 .header_content span{
-	height: 2px;	
-	width: 100px;	
-	background: #FB2056;
-	display: block;	
-	margin: 0 auto;	
-	margin-top: 10px;
+    height: 2px;    
+    width: 100px;   
+    background: #FB2056;
+    display: block; 
+    margin: 0 auto; 
+    margin-top: 10px;
 }
 
 .header_content a:hover{
-  	background: #fb2056cc;
+    background: #fb2056cc;
 }
 
 /*header section end*/
 
 /*banner section start*/
 .banner_section{
-	overflow:hidden;
-	padding-bottom: 50px;
+    overflow:hidden;
+    padding-bottom: 50px;
 }
 .head{
     text-align: center;
@@ -174,10 +177,10 @@ header{background: url(./images/mountain.jpg);background-color: #000000b8;backgr
     border-radius: 5px;
 }
 .events h2{
-	color: #333;
-	font-size: 40px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+    color: #333;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .events h3{
@@ -191,24 +194,24 @@ header{background: url(./images/mountain.jpg);background-color: #000000b8;backgr
 }
 
 .events p{
-	color: #333;
-	font-weight: 500;
-	font-size: 18px;
-	padding: 10px;
-	margin: 15px 0;
+    color: #333;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px;
+    margin: 15px 0;
 }
 
 .events a{
-	color: #fb2056;
-	font-size: 14px;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-weight: 900;
-	letter-spacing: 2px;
+    color: #fb2056;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
 }
 
 .events i{
-	color: #fb2056;
+    color: #fb2056;
 }
 .left{
     width: 50%;
@@ -233,14 +236,14 @@ header{background: url(./images/mountain.jpg);background-color: #000000b8;backgr
 
 /*explore section start*/
 .explore_section{
-	background:url(./images/two.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	background-color: #00000080;
-	background-blend-mode: color-burn;
-	padding: 150px 0;
-	overflow: hidden;
+    background:url(./images/two.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #000000c7;
+    background-blend-mode: color-burn;
+    padding: 150px 0;
+    overflow: hidden;
 }
 .explore{width: 50%;float: right;overflow: hidden;}
 .explore h2{
@@ -281,22 +284,22 @@ header{background: url(./images/mountain.jpg);background-color: #000000b8;backgr
 }
 
 .tours {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	    -ms-flex-flow: row;
-	        flex-flow: row;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
 }
 
 .tours img{
-	width:100%;
-	display: block;
-	margin-bottom: 20px;
-	border-radius: 5px;
+    width:100%;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 .one {
@@ -324,41 +327,41 @@ header{background: url(./images/mountain.jpg);background-color: #000000b8;backgr
 }
 
 .one a{
-	color: white;
-	text-decoration: none;
-	border-radius: 30px;
-	background: #FB2056;
-	padding: 15px 40px;
-	text-transform: uppercase;
-	font-size: 12px;font-weight: 700;
-	letter-spacing: 2px;
-	display: inline-block;
-	margin-top: 10px;
-	-webkit-transition:.4s all ease-in-out;
-	-o-transition:.4s all ease-in-out;
-	transition:.4s all ease-in-out;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    background: #FB2056;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    font-size: 12px;font-weight: 700;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin-top: 10px;
+    -webkit-transition:.4s all ease-in-out;
+    -o-transition:.4s all ease-in-out;
+    transition:.4s all ease-in-out;
 }
 
 .one a:hover{
-	-webkit-box-shadow: 0px 8px 16px rgba(0,0,0,0.4);
-	        box-shadow: 0px 8px 16px rgba(0,0,0,0.4);
-	
+    -webkit-box-shadow: 0px 8px 16px rgba(0,0,0,0.4);
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.4);
+    
 }
 
 .two img:last-child{
-	margin-bottom:0;
+    margin-bottom:0;
 }
 
 .three img:last-child {
-	margin-bottom:0;
+    margin-bottom:0;
 }
 
 .small{
-	height: 250px;
-	-o-object-fit: cover;
-	   object-fit: cover;
-	-o-object-position: center;
-	   object-position: center;
+    height: 200px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
 }
 .large{
     height: 400px;
@@ -385,6 +388,7 @@ padding: 45px 0;
 }
 
 .copyright p{
-	
+    
+line-height: .6;
 }
 /*copyright section end*/
